@@ -17,7 +17,3 @@ error_log("HTTP_HOST: " . ($_SERVER['HTTP_HOST'] ?? 'not set'));
 error_log("SCRIPT_NAME: " . ($_SERVER['SCRIPT_NAME'] ?? 'not set'));
 
 $router->dispatch($method, $uri);
-
-
-
-echo "test123";
